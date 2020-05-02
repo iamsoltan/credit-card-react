@@ -5,6 +5,7 @@ import mc from './img/mc.png'
 class App extends Component {
   render() {
     return (
+      <div className="innerBody">
       <div className="container">
         <div className="card">
           <h2 className="number">•••• 1234 •••• ••••</h2>
@@ -20,6 +21,7 @@ class App extends Component {
           <input className="inputName" placeholder="card Holder" type="text"/>
           <input className="inputExpiry" placeholder="MM/YY" type="text"/>
         </div>
+      </div>
       </div>
     );
   }
